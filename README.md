@@ -7,7 +7,7 @@ This program uses clustering and the K-Means algorithim to find the best crypto 
 ## Technologies
 This application is written in Jupyter Lab Notebook in the Python programming language. The Python libraries, tools, and modules used in this application are Pandas, hvPlot, and scikit-learn.
 
-[Pandas](https://pandas.pydata.org/docs/index.html),[hvPlot](https://hvplot.holoviz.org/),[scikit-learn](https://scikit-learn.org/stable/user_guide.html) 
+[Pandas](https://pandas.pydata.org/docs/index.html), [hvPlot](https://hvplot.holoviz.org/), [scikit-learn](https://scikit-learn.org/stable/user_guide.html) 
 
 
 ----
@@ -65,15 +65,21 @@ For the program to run correctly, the user must make sure that all libraries and
     from sklearn.preprocessing import StandardScaler
 
 
-**The program is comprised of 4 parts:**
+**The program is comprised of 7 parts:**
 
-1. 
+1. Import & Prepare the Data
 
-2. 
+2. Find the Best Value for k using the Original Data
 
-3. 
+3. Cluster Cryptocurrencies with K-means
 
-4. 
+4. Optimize Clusters with Principal Component Analysis
+
+5. Find the best Value for k Using the PCA Data
+
+6. Cluster Cryptocurrencies with K-means Using PCA data
+
+7. Visulize and Compare the Results
 
 
 ----
